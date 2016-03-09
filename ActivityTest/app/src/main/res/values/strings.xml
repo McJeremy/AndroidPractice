@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityTest</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="hello_world">Second Activity!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result1">result1Activity</string>
+    <string name="title_activity_result2">result2Activity</string>
+</resources>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:text="Wait Result" android:id="@+id/txtWaitResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#00FF03"
+        android:textSize="23sp"
+        />
+
+    <EditText android:id="@+id/txtName"
+        android:hint="please enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnWaitResult" android:text="Go!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
