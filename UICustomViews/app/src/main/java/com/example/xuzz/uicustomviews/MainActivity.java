@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 1:
                 Intent intent = new Intent(MainActivity.this,CustomListViewActivity.class);
                 startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_out_right,android.R.anim.slide_in_left);
                 break;
             case 2:
                 Intent chatIntent = new Intent(MainActivity.this,ChatActivity.class);
